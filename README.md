@@ -1,8 +1,8 @@
-Mushroom snake
+# Mushroom snake
 
 HTML5 + typescript game
 
-Launching
-Typescript is required to be installed globaly - npm install -g typescript
-npm install
-npm run dev
+## Launching
+1. Typescript is required to be installed globaly - npm install -g typescript
+2. npm install
+3. npm run dev
