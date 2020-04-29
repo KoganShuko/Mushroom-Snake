@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  position: relative;
+  top: 0;
+  min-width: 300px;
+  min-height: 300px;
+  margin: 0 auto;
+}
+
+.background-canvas {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+}
+
+.game-canvas {
+  box-sizing: border-box;
+  width: 100%;
+  border: 5px solid #155235;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background-color: rgba(209, 255, 236, 1);
+}

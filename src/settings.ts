@@ -1,0 +1,20 @@
+export const cfg = {
+  canvasWidth: 495,
+  canvasHeight: 450,
+  headerHeight: 50,
+  margingTop: 5,
+  margingBottom: 20,
+  gameCanvasMargin: 200,
+  snakePartSize: 15,
+  snakeFPS: 25,
+  snakeFPSStep: 3,
+  scoreBorder: 20,
+  scoreBorderStep: 200,
+  // for bg animation
+  headerBGcolor: '28, 136, 91',
+  headerBorderColor: '21, 82, 53',
+  gameCanvasBorderColor: '21, 82, 53',
+  gameCanvasColor: '209, 255, 236',
+  bgColor: [175, 227, 255],
+  hallucinationBGColor: [12, 12, 12],
+};

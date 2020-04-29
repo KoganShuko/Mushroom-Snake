@@ -1,0 +1,38 @@
+.snake-character {
+  position: absolute;
+  top: -20px;
+  left: 100%;
+  width: 20%;
+  height: 50%;
+  transition: all .4s ease-in-out;
+  transform: translateY(-100%);
+  opacity: 0;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.snake-character_0 {
+  background-image: url(./assets/bigSnake.png);
+}
+.snake-character_1 {
+  background-image: url(./assets/drankSnake.png);
+}
+
+.snake_spreeh {
+  position: absolute;
+  top: auto;
+  bottom: -80px;
+  left: 0;
+  width: 100px;
+  height: 100px;
+  background-image: url(./assets/bigSnakeTextField.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.snake_spreeh_text {
+  font-size: 12px;
+  margin-top: 40px;
+  margin-left: -2px;
+  text-align: center;
+}
